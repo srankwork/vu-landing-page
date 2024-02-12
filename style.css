@@ -38610,3 +38610,11 @@ body.dark {
 .next1 {
   right: 10px;
 }
+
+
+
+@media (max-width: 700px) {
+  .logo-default{
+    height: 70px !important;
+  }
+}

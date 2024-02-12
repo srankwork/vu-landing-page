@@ -80,10 +80,14 @@
 
 #wrapper {
 	background: var(--cnvs-body-bg);
-	background-image: var(--cnvs-body-image);
-	background-repeat: repeat-y;
+	/* background-image: var(--cnvs-body-image); */
+	background-image: url('images/background-image.jpeg');
+	background-repeat: no-repeat;
 	background-position: center top;
-	background-size: 100% auto;
+	/* background-size: 100% auto; */
+}
+.wrapper-overlay{
+	background-color:#204D1D;
 }
 
 
